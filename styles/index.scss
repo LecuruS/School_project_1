@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    height: 100vh;
+    background: url(../assets/images/bg.jpg) center fixed;
+    background-size: cover;
+}
+@import "./pages/_settings.scss";
+@import "./components/_buttons.scss";
+@import "./components/_form.scss";
+@import "./layout/_header.scss";
+@import "./layout/_navbar.scss";
+@import "./layout/_main.scss";
+main{
+    section{
+        img{
+            width: 50%;
+        }
+    }
+}
