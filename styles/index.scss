@@ -8,6 +8,7 @@ body {
     height: 100vh;
     background: url(../assets/images/bg.jpg) center fixed;
     background-size: cover;
+    position: relative;
 }
 @import "./pages/_settings.scss";
 @import "./components/_buttons.scss";
@@ -15,10 +16,11 @@ body {
 @import "./layout/_header.scss";
 @import "./layout/_navbar.scss";
 @import "./layout/_main.scss";
+@import "./layout/footer";
 main{
     section{
         img{
-            width: 50%;
+            width: 90%;
         }
     }
 }

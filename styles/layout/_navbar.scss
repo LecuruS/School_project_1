@@ -3,9 +3,11 @@ nav {
     grid-template-columns: 70% 30%;
     margin: 0 150px;
     color: white;
-    background: #85858556;
+    background: $color_1;
     align-items: center;
-    ul {
+    height: 50px;
+
+    .nav_ul {
         display: flex;
        align-items: center;
        cursor: pointer;
@@ -14,21 +16,23 @@ nav {
        font-size: 0.6rem;
        text-transform: uppercase;
        letter-spacing: 1px;
-       height: 50px;
+
        li {
         padding: 0 15px;
-        align-items: center;
         height: 100%;
         margin: auto 0;
         }
         li:hover {
             background: white;
             color: black;
-            text-align: center;       }
+            text-align: center;       
+        }
     }
     .nav_icones {
+        cursor: pointer;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        font-size: 0.9rem;
     }
 }

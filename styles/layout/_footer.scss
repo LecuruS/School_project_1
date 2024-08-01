@@ -1,0 +1,72 @@
+footer {
+    margin: 25px 150px 0;
+    padding-top: 10px 0;
+    background-color: $color_3;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: $color_1;
+    height: 490px;
+
+    .footer_section {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 40px;
+        margin-top: 10px;
+
+        .input {
+            background-color: transparent;
+            border-radius: 3px;
+            border-color: $color_1;
+            border-width: 1px;
+            padding: 10px 0;
+            margin-top: 0;
+        }
+
+        label {
+            padding: 15px 0;
+        }
+
+        .button {
+            background-color: transparent;
+            color: $color_2;
+            border-color: $color_2;
+            margin-top: 35px;
+            width: 30%;
+            padding: 10px 15px;
+            font-size: 0.55rem;
+        }
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        padding: 50px 45px ;
+        justify-items: start;
+        align-items: center;
+        gap: 30px;
+
+        p {
+            font-size: 0.7rem;
+            font-family: Merriweather;
+            font-weight: 200;
+            padding-right: 20px;
+        }
+
+        i{
+            border: 1px solid $color_1;
+            border-radius: 50%;
+            background: transparent;
+            padding-top: 11px;
+            padding-left: 11px;
+            width: 35px;
+            height: 35px;
+            font-size: 0.8rem;
+        }
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+}
